@@ -46,6 +46,13 @@ function App() {
           This is CEPSR. <br /> Nice!
         </Popup>
       </Marker>
+      <Marker position={[40.80935, -73.95993]}>
+        <Popup>
+          This is Mudd.
+        </Popup>
+      </Marker>
+
+
       <Polygon positions={polyline} color="red"/>
     </MapContainer>
   );
