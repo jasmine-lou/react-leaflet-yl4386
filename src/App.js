@@ -27,7 +27,13 @@ const polyline = [
   [40.8099, -73.961]
 ]
 
-const redOptions = { color: 'red' }
+const polyline2 = [
+  [40.80963,-73.96031],
+  [40.80928,-73.95947],
+  [40.80908,-73.95961],
+  [40.80943,-73.96045],
+  [40.80963,-73.96031]
+]
 
 function App() {
   return (
@@ -51,9 +57,9 @@ function App() {
           This is Mudd.
         </Popup>
       </Marker>
-
-
+      
       <Polygon positions={polyline} color="red"/>
+      <Polygon positions={polyline2} color="red"/>
     </MapContainer>
   );
 }
