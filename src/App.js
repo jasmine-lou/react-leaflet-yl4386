@@ -35,6 +35,14 @@ const polyline2 = [
   [40.80963,-73.96031]
 ]
 
+const polyline3 = [
+  [40.80973,-73.96041],
+  [40.80938,-73.95957],
+  [40.80918,-73.95971],
+  [40.80953,-73.96055],
+  [40.80973,-73.96041]
+]
+
 function App() {
   return (
     <MapContainer
@@ -60,6 +68,7 @@ function App() {
       
       <Polygon positions={polyline} color="red"/>
       <Polygon positions={polyline2} color="red"/>
+      <Polygon positions={polyline3} color="red"/>
     </MapContainer>
   );
 }
